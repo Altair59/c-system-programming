@@ -1,0 +1,73 @@
+Script started on 2019-11-22 17:21:58-0500
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ gd b randclient
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from randclient...done.
+(gdb) b main
+Breakpoint 1 at 0xc69: file randclient.c, line 24.
+(gdb) run 127.0.0.1
+Starting program: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7ffffffee0c8) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) n
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) n
+31	    write_random_pieces(soc, MESSAGE, TIMES);
+(gdb) p ()[K[K[K()&)b)u)f)
+$1 = (char **) 0x7fffff3ec880 <buf>
+(gdb) p()i)n)b)u)f)
+No symbol "inbuf" in current context.
+(gdb) p(inbuf)&inbuf)
+No symbol "inbuf" in current context.
+(gdb) n
+33	    close(soc);
+(gdb) n
+34	    return 0;
+(gdb) n
+35	}
+(gdb) n
+__libc_start_main (main=0x8000c5a <main>, argc=2, argv=0x7ffffffee0c8, 
+    init=<optimized out>, fini=<optimized out>, 
+    rtld_fini=<optimized out>, stack_end=0x7ffffffee0b8)
+    at ../csu/libc-start.c:344
+344	../csu/libc-start.c: No such file or directory.
+(gdb) n
+[Inferior 1 (process 71) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) ru[K[Kn
+The program is not being run.
+(gdb) run
+Starting program: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7ffffffee0c8) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) n
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) n
+31	    write_random_pieces(soc, MESSAGE, TIMES);
+(gdb) n
+33	    close(soc);
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 79] will be killed.
+
+Quit anyway? (y or n) y
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ex it
+exit
+
+Script done on 2019-11-22 17:25:44-0500

@@ -1,0 +1,12 @@
+Script started on 2019-11-22 17:17:42-0500
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ./ra ndclient 127.0.0.1
+connect: Connection refused
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ./ranndclient 127.0.0.1
+connect: Connection refused
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ./ranndclient 127.0.0.1
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ./ranndclient 127.0.0.1
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ ./ranndclient 127.0.0.1
+]0;altair@DESKTOP-NKLLIKL: /mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[01;32maltair@DESKTOP-NKLLIKL[00m:[01;34m/mnt/c/Users/youha/Desktop/csc209/liyouhai/lab10[00m$ exit [A
+exit
+
+Script done on 2019-11-22 17:21:03-0500
